@@ -1,0 +1,37 @@
+.coder{
+	background-color: black;
+	cursor: pointer;
+	width: 20%;
+	height: auto;
+	margin: 1%;
+	border-radius: 5px;
+	position: relative; 
+	transition: 0.2s;
+
+}
+#select{
+	margin: 20px;	
+	border-radius: 10px;
+}
+.coder:hover{
+	opacity: 0.7;
+}
+.box-image:hover .text{
+	opacity: 0.7;
+	display: inline-block;
+}
+body{
+  font-family: "Meli Brush", Georgia, Serif;;
+  text-align: center;
+
+}
+.text{
+	font-size: 25px;
+	opacity: 0;
+	color: black;
+	position: absolute;
+	z-index: 5;
+	margin-left: -15%;
+	margin-top: 10%;
+	transition: 0.2s;
+} 
